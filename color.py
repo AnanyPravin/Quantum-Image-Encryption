@@ -361,8 +361,6 @@ def encrypt_rgb_image(image_array, rounds=4, p1=2.299, p2=1.332, p3=6.887):
     return encrypted_image
 
 
-# ---- Main Usage ----
-
 if __name__ == "__main__":
     # input_image = np.array([[[255, 0, 0], [0, 255, 0], [0, 0, 255], [255, 255, 0]],
     #                         [[255, 0, 255], [0, 255, 255], [255, 255, 255], [128, 128, 128]],
